@@ -5,7 +5,36 @@ body
 
 div#container
 {
+    background-image: url(../assets/background.png);
 	margin-left: auto;
 	margin-right: auto;
+    height: 480px;
 	width: 320px;
+}
+
+div#container .rules{
+    text-align: left;
+    padding-top: 40px;
+}
+
+div#container .rules h1{
+    padding-bottom: 15px;
+    text-align: center;
+    color: white;
+    font-family: "Myriad Pro", "Arial", "sans-serif";
+    font-size: 24px;
+}
+
+div#container ol{
+    color: white;
+}
+
+div#container li{
+    padding-left: 33px;
+    padding-right: 33px;
+    padding-bottom: 9px;
+    list-style: decimal inside none;
+    color: white;
+    font-family: "Myriad Pro", "Arial", "sans-serif";
+    font-size: 14px;
 }
