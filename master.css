@@ -19,6 +19,10 @@ div#container
     padding-top: 15px;
     padding-bottom: 15px;
 }
+
+div#container .title{
+    padding-top: 15px;
+}
 div#container .picContainer{
     margin-left: auto;
     margin-right: auto;
