@@ -11,10 +11,8 @@ body
 
 div#container
 {
-    position: absolute;
-    left: 30%;
-    height: 30%;
-
+    margin-left: auto;
+    margin-right: auto;
     min-width: 330px;
 	width: 40%;
     height: 100%;
@@ -25,8 +23,8 @@ div#container .picContainer{
     margin-left: auto;
     margin-right: auto;
     width:  97%;
-    height: 96%;  
-    min-height: 345px;
+    height: 99%;  
+    min-height: 413px;
     min-width: 290px;
     -moz-border-radius: 15px;
     border-radius: 15px;
@@ -82,7 +80,7 @@ div#container  .whiteBorder{
 div#container  .rules{
     margin: auto;
     text-align: left;
-    padding-top: 20px;
+    padding-top: 33px;
 }
 
 div#container  h1{
@@ -100,7 +98,7 @@ div#container ol{
 div#container li{
     padding-left: 20px;
     padding-right: 15px;
-    padding-bottom: 8px;
+    padding-bottom: 9px;
     list-style: decimal inside none;
     color: white;
     font-family: "Myriad Pro", "Arial", "sans-serif";
