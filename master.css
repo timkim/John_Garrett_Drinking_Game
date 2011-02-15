@@ -11,31 +11,28 @@ body
 
 div#container
 {
-    margin-left: auto;
-    margin-right: auto;
+    position: absolute;
+    left: 30%;
+    height: 30%;
+
     min-width: 330px;
 	width: 40%;
     height: 100%;
     padding-top: 15px;
     padding-bottom: 15px;
 }
-
-div#container .title{
-    margin-top: 15px;
-}
 div#container .picContainer{
     margin-left: auto;
     margin-right: auto;
     width:  97%;
-    height: 99%;  
-    min-height: 413px;
+    height: 96%;  
+    min-height: 345px;
     min-width: 290px;
     -moz-border-radius: 15px;
     border-radius: 15px;
     background-color: black;
     background-image: url('img/garrett_cropped.png');
     background-repeat: no-repeat;
-    background-position:center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -56,7 +53,7 @@ div#container .garretPic{
 */
 div#container  .blueBorder{
     padding-top: 5px;
-    padding-bottom: 10px;
+    padding-bottom: 5px;
     background-color: #0071BC;
     margin-left: auto;
     margin-right: auto;
@@ -75,7 +72,7 @@ div#container  .whiteBorder{
     margin-left: auto;
     margin-right: auto;
     width:  97%;
-    height: 99%;
+    height: 96%;
     min-height: 417px;
     min-width: 300px;    
     -moz-border-radius: 15px;
@@ -85,7 +82,7 @@ div#container  .whiteBorder{
 div#container  .rules{
     margin: auto;
     text-align: left;
-    padding-top: 33px;
+    padding-top: 20px;
 }
 
 div#container  h1{
@@ -103,7 +100,7 @@ div#container ol{
 div#container li{
     padding-left: 20px;
     padding-right: 15px;
-    padding-bottom: 9px;
+    padding-bottom: 8px;
     list-style: decimal inside none;
     color: white;
     font-family: "Myriad Pro", "Arial", "sans-serif";
