@@ -83,7 +83,10 @@ div#container  .whiteBorder{
 }
 
 div#container  .rules{
-    margin: auto;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 450px;
+    min-width: 270px;
     text-align: left;
     padding-top: 33px;
 }
