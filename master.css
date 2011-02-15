@@ -31,6 +31,7 @@ div#container .picContainer{
     background-color: black;
     background-image: url('img/garrett_cropped.png');
     background-repeat: no-repeat;
+    background-position:center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
