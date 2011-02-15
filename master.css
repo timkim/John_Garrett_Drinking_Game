@@ -1,23 +1,91 @@
+html, body{
+    height: 100%;
+    overflow: hidden;
+}
+
 body
 {
 	text-align: center;
+    background-image: url(img/bg_texture.png);
 }
 
 div#container
 {
-    background-image: url(background.png);
-	margin-left: auto;
-	margin-right: auto;
-    height: 480px;
-	width: 320px;
+    position: absolute;
+    left: 30%;
+    height: 30%;
+
+    min-width: 330px;
+	width: 40%;
+    height: 100%;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+div#container .picContainer{
+    margin-left: auto;
+    margin-right: auto;
+    width:  97%;
+    height: 96%;  
+    min-height: 345px;
+    min-width: 290px;
+    -moz-border-radius: 15px;
+    border-radius: 15px;
+    background-color: black;
+    background-image: url('img/garrett_cropped.png');
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+/*
+div#container .garretPic{
+    width:95%;
+    z-index: 0; 
+    height:95%;
+    min-height: 335px;
+    min-width: 280px;
+    -moz-border-radius: 15px;
+    border-radius: 15px;
+    background-color: black;
+    padding: 5px;
+}
+*/
+div#container  .blueBorder{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: #0071BC;
+    margin-left: auto;
+    margin-right: auto;
+    width:  75%;
+    height: 70%;
+    min-height: 427px;
+    min-width: 310px;    
+    -moz-border-radius: 15px;
+    border-radius: 15px;
 }
 
-div#container .rules{
+div#container  .whiteBorder{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: white;
+    margin-left: auto;
+    margin-right: auto;
+    width:  97%;
+    height: 96%;
+    min-height: 417px;
+    min-width: 300px;    
+    -moz-border-radius: 15px;
+    border-radius: 15px;
+}
+
+div#container  .rules{
+    margin: auto;
     text-align: left;
-    padding-top: 40px;
+    padding-top: 20px;
 }
 
-div#container .rules h1{
+div#container  h1{
     padding-bottom: 15px;
     text-align: center;
     color: white;
@@ -30,9 +98,9 @@ div#container ol{
 }
 
 div#container li{
-    padding-left: 33px;
-    padding-right: 33px;
-    padding-bottom: 9px;
+    padding-left: 20px;
+    padding-right: 15px;
+    padding-bottom: 8px;
     list-style: decimal inside none;
     color: white;
     font-family: "Myriad Pro", "Arial", "sans-serif";
